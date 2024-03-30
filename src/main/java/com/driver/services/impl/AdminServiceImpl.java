@@ -1,5 +1,6 @@
 package com.driver.services.impl;
 
+import java.sql.Driver;
 import java.util.List;
 
 import com.driver.services.AdminService;
@@ -8,7 +9,6 @@ import org.springframework.stereotype.Service;
 
 import com.driver.model.Admin;
 import com.driver.model.Customer;
-import com.driver.model.Driver;
 import com.driver.repository.AdminRepository;
 import com.driver.repository.CustomerRepository;
 import com.driver.repository.DriverRepository;
@@ -62,7 +62,3 @@ public class AdminServiceImpl implements AdminService {
 	}
 
 }	//Find the list of all customers
-
-	}
-
-}
