@@ -7,7 +7,6 @@ import com.driver.model.Customer;
 import com.driver.model.Driver;
 
 public interface AdminService {
-
 	public void adminRegister(Admin admin);
 
 	public Admin updatePassword(Integer adminId, String password);
@@ -15,6 +14,6 @@ public interface AdminService {
 	public void deleteAdmin(int adminId);
 
 	public List<Driver> getListOfDrivers();
-	
+
 	public List<Customer> getListOfCustomers();
 }
